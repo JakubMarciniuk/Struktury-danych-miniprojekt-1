@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 
-// Nowy interfejs bazowy
+//interfejs bazowy
 class ISequence {
 public:
     virtual void insertFront(int value) = 0;
