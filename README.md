@@ -9,8 +9,10 @@ rozmiar, a w momencie braku miejsca jest zwiększana dwukrotnie.
 wskaźnikach: head, tail.
 3. Lista dwukierunkowa (ang. Doubly Linked List).
 Ocenianie
+
 1. Ocena 3.0: podpunkt 1, podpunkt 2
 2. Ocena 4.0-5.0: podpunkt 1, podpunkt 2, podpunkt 3
+   
 Operacje do zbadania
 • Dodawanie i usuwanie elementu na różnych pozycjach:
 – początek tablicy (listy),
