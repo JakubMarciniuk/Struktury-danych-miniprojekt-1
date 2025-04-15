@@ -1,6 +1,6 @@
 #include "ForwardList.h"
 
-// Konstruktor wêz³a
+// Konstruktor wezla
 ForwardList::Node::Node(int v) : value(v), next(nullptr) {}
 
 // Konstruktor listy
@@ -16,7 +16,7 @@ ForwardList::~ForwardList() {
     }
 }
 
-// Dodaje element na pocz¹tek
+// Dodaje element na poczatek
 void ForwardList::insertFront(int value) {
     Node* node = new Node(value);
     node->next = first;
@@ -38,7 +38,7 @@ void ForwardList::insertBack(int value) {
     ++size;
 }
 
-// Dodaje element na okreœlonej pozycji
+// Dodaje element na okreslonej pozycji
 void ForwardList::insertAt(int position, int value) {
     if (position < 0 || position > size) return;
     if (position == 0) return insertFront(value);
@@ -107,12 +107,12 @@ bool ForwardList::contains(int value) {
     return false;
 }
 
-// Zwraca liczbê elementów
+// Zwraca liczbe elementÃ³w
 int ForwardList::count() {
     return size;
 }
 
-// Wyœwietla zawartoœæ
+// Wyswietla zawartosc
 void ForwardList::show() {
     std::cout << "[ ";
     for (Node* node = first; node; node = node->next)
@@ -133,7 +133,7 @@ void ForwardList::loadFromFile(std::string filePath) {
 
     std::ifstream file(filePath);
     if (!file) {
-        std::cerr << "Nie mo¿na otworzyæ pliku: " << filePath << "\n";
+        std::cerr << "Nie moÂ¿na otworzyÃ¦ pliku: " << filePath << "\n";
         return;
     }
 
